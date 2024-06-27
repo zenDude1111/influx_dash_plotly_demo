@@ -12,9 +12,9 @@ import dash_bootstrap_components as dbc
 
 # Constants
 INFLUXDB_URL = "http://universe.phys.unm.edu:8086"
-INFLUXDB_TOKEN = "iJeDxj8N65qWK0kDblZ1DIde4bUD5vgtFMqIqObqGzHTTnOrCdwTXtRlSB4-zHRSZuAYfBBr30mX3gMeeYZCWQ=="
-INFLUXDB_ORG = "barronlab"
-INFLUXDB_BUCKET = "influx_demo"
+INFLUXDB_TOKEN = "ishf4rkO91al90y4WAJKSiYNBhLri5AhjdX1TKg-J-wmSPL3QqQJF61ghEFmQ-AamdT6ptaBLzKMlf7LCBrfRg=="
+INFLUXDB_ORG = "demo"
+INFLUXDB_BUCKET = "demo"
 
 # Function to create a client with retries
 def create_influxdb_client():
